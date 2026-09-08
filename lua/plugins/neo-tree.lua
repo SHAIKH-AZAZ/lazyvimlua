@@ -13,6 +13,14 @@ return {
         end,
         desc = "Explorer NeoTree (cwd)",
       },
+
+      {
+        "<C-q>",
+        function()
+          Snacks.bufdelete()
+        end,
+        desc = "Delete Buffer",
+      },
     },
   },
 }
