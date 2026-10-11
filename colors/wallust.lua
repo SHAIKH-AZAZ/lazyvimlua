@@ -1,21 +1,21 @@
 -- wallust template - colors-nvim.lua
 -- Generated into ~/.config/nvim/colors/wallust.lua, so `:colorscheme wallust` loads it.
 require("base16-colorscheme").setup({
-  base00 = "#00000C",                 -- editor bg
-  base01 = "#0F0F1B", -- statusline / float bg
-  base02 = "#24242E", -- selection
-  base03 = "#98A4A8",                     -- comments
-  base04 = "#D9EAF0",                     -- dark fg
-  base05 = "#EAF6FA",                 -- fg
-  base06 = "#D9EAF0",
-  base07 = "#D9EAF0",
-  base08 = "#416586",  -- variables, errors
-  base09 = "#416586",  -- numbers, constants
-  base0A = "#317CAF",  -- types
-  base0B = "#317BAE",  -- strings
-  base0C = "#C3E6F2",  -- regex, escapes
-  base0D = "#B8E3F2",  -- functions
-  base0E = "#C3E6F2",  -- keywords
-  base0F = "#C3E6F2", -- deprecated
+  base00 = "#1E1E1F",                 -- editor bg
+  base01 = "#2C2C2C", -- statusline / float bg
+  base02 = "#3E3E3E", -- selection
+  base03 = "#7E8286",                     -- comments
+  base04 = "#B4B9C0",                     -- dark fg
+  base05 = "#D0D4D8",                 -- fg
+  base06 = "#B4B9C0",
+  base07 = "#B4B9C0",
+  base08 = "#565557",  -- variables, errors
+  base09 = "#565557",  -- numbers, constants
+  base0A = "#5A595C",  -- types
+  base0B = "#575658",  -- strings
+  base0C = "#808A96",  -- regex, escapes
+  base0D = "#666A69",  -- functions
+  base0E = "#838890",  -- keywords
+  base0F = "#838890", -- deprecated
 })
 vim.g.colors_name = "wallust"
